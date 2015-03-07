@@ -17,7 +17,7 @@ Require the library
 
 Create a new Server object;
 
-    server = CraftClient.new(USERNAME, IDENTITY_TOKEN, SERVER_NAME, SERVER_PORT)
+    server = CraftClient::Server.new(USERNAME, IDENTITY_TOKEN, SERVER_NAME, SERVER_PORT)
 
 Attempt to connect to the server;
 
